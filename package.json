@@ -1,13 +1,13 @@
 {
   "name": "resume-nextjs",
-  "lastestUpdatedAt": "2020-11-08",
-  "version": "1.0.4",
+  "lastestUpdatedAt": "2021-1-24",
+  "version": "1.0.0",
   "description": "Static HTML based RESUME made with next.js",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "dev": "cross-env DEBUG=yosume:* next",
-    "build": "next build",
+    "dev": "cross-env DEBUG=yosume:* next -host 0.0.0.0 --disableHostCheck true",
+    "build": "next build && next export",
     "prebuild": "npm install && npm run lint",
     "start": "next start",
     "export:with-typedoc": "npm run export && npm run typedoc",
@@ -28,8 +28,8 @@
     "next"
   ],
   "author": {
-    "name": "Yowu Yu",
-    "email": "me@yowu.dev",
+    "name": "HyungJin Kim",
+    "email": "jeenz93@gmail.com",
     "url": "https://yowu.dev"
   },
   "contributors": [],
@@ -49,7 +49,7 @@
     "debug": "^4.2.0",
     "jquery": "^3.5.1",
     "luxon": "^1.25.0",
-    "next": "^10.0.1",
+    "next": "^10.0.7",
     "next-images": "^1.6.2",
     "next-seo": "^4.15.1",
     "react": "^17.0.1",

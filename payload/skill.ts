@@ -5,27 +5,21 @@ const backend: ISkill.Skill = {
   items: [
     {
       title: 'Node.js',
-      level: 3,
+      // level: 3,
+    },
+    {
+      title: 'SpringBoot',
     },
     {
       title: 'AWS',
-      level: 3,
     },
     {
-      title: 'PHP',
-      level: 2,
-    },
-    {
-      title: 'Java',
-      level: 1,
+      title: 'Kotlin',
+      // level: 3,
     },
     {
       title: 'Python',
-      level: 1,
-    },
-    {
-      title: 'C/C++',
-      level: 1,
+      // level: 2,
     },
   ],
 };
@@ -35,19 +29,23 @@ const database: ISkill.Skill = {
   items: [
     {
       title: 'MySQL',
-      level: 3,
+      // level: 2,
     },
     {
-      title: 'Oracle',
-      level: 2,
+      title: 'ElasticSearch',
+      // level: 2,
     },
     {
       title: 'Redis',
-      level: 2,
+      // level: 2,
     },
     {
-      title: 'MongoDB',
-      level: 1,
+      title: 'Cassandra',
+      // level: 1,
+    },
+    {
+      title: 'Kafka',
+      // level: 1,
     },
   ],
 };
@@ -56,20 +54,12 @@ const frontend: ISkill.Skill = {
   category: 'Front-end',
   items: [
     {
-      title: 'Next.js',
-      level: 2,
+      title: 'Android(Kotlin)',
+      // level: 2,
     },
     {
-      title: 'React.js',
-      level: 2,
-    },
-    {
-      title: 'javascript',
-      level: 2,
-    },
-    {
-      title: 'HTML/CSS',
-      level: 2,
+      title: 'iOS(Swift)',
+      // level: 2,
     },
   ],
 };
@@ -84,16 +74,16 @@ const etc: ISkill.Skill = {
       title: 'Vim',
     },
     {
-      title: 'Security',
+      title: 'ClickUp',
     },
     {
-      title: 'VS Code',
+      title: 'Git',
     },
     {
-      title: 'Jira',
+      title: 'Docker',
     },
     {
-      title: 'Confluence',
+      title: 'Kubernetes',
     },
   ],
 };
