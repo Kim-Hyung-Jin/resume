@@ -6,8 +6,8 @@
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "dev": "cross-env DEBUG=yosume:* next -host 0.0.0.0 --disableHostCheck true",
-    "build": "next build && next export",
+    "dev": "cross-env DEBUG=yosume:* next",
+    "build": "next build",
     "prebuild": "npm install && npm run lint",
     "start": "next start",
     "export:with-typedoc": "npm run export && npm run typedoc",
@@ -18,7 +18,7 @@
     "lint": "eslint 'component/**/*' 'pages/**/*' 'payload/**/*' '*.ts' --fix",
     "typedoc": "typedoc --excludeExternals"
   },
-  "homepage": "https://uyu423.github.io/resume-nextjs",
+  "homepage": "https://kim-hyung-jin.github.io/resume",
   "repository": {
     "type": "git",
     "url": "git+https://github.com/uyu423/resume-nextjs.git"
