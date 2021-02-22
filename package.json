@@ -21,7 +21,7 @@
   "homepage": "https://kim-hyung-jin.github.io/resume-nextjs",
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/uyu423/resume-nextjs.git"
+    "url": "git+https://github.com/Kim-Hyung-Jin/resume-nextjs.git"
   },
   "keywords": [
     "resume",
@@ -30,7 +30,7 @@
   "author": {
     "name": "HyungJin Kim",
     "email": "jeenz93@gmail.com",
-    "url": "https://yowu.dev"
+    "url": "https://jin.dev"
   },
   "contributors": [],
   "license": "MIT",
