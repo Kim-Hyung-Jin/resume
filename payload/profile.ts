@@ -1,6 +1,6 @@
 import { faEnvelope, faPhone } from '@fortawesome/free-solid-svg-icons';
 import { faBell } from '@fortawesome/free-regular-svg-icons';
-// import { faGithub, faFacebook } from '@fortawesome/free-brands-svg-icons';
+import { faGithub } from '@fortawesome/free-brands-svg-icons';
 import image from '../asset/photo.jpg';
 import { IProfile } from '../component/profile/IProfile';
 
@@ -24,10 +24,10 @@ const profile: IProfile.Payload = {
       icon: faPhone,
       badge: true,
     },
-    // {
-    //   title: 'https://github.com',
-    //   link: 'https://github.com/uyu423/resume-nextjs',
-    //   icon: faGithub,
+    {
+      title: 'https://github.com',
+      link: 'https://github.com/Kim-Hyung-Jin?tab=repositories',
+      icon: faGithub,
     // },
     // {
     //   link: 'https://www.linkedin.com/in/hyung-jin-kim-428a71181/',
