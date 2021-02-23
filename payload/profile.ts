@@ -25,8 +25,8 @@ const profile: IProfile.Payload = {
       badge: true,
     },
     {
-      title: 'https://github.com',
-      link: 'https://github.com/Kim-Hyung-Jin?tab=repositories',
+      title: 'https://github.com/Kim-Hyung-Jin',
+      link: 'https://github.com/Kim-Hyung-Jin',
       icon: faGithub,
     },
     // {
