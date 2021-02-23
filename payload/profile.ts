@@ -28,7 +28,7 @@ const profile: IProfile.Payload = {
       title: 'https://github.com',
       link: 'https://github.com/Kim-Hyung-Jin?tab=repositories',
       icon: faGithub,
-    // },
+    },
     // {
     //   link: 'https://www.linkedin.com/in/hyung-jin-kim-428a71181/',
     //   icon: faFacebook,
