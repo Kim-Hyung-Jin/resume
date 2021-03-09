@@ -56,7 +56,7 @@ const experience: IExperience.Payload = {
       skillKeywords: ['Kotlin', 'SpringBoot', 'PostgreSQL', 'ElasticSearch', 'Vue.js'],
     },
 
-   { 
+    {
       title: '가우미디어',
       position: 'FullStack Developer',
       startedAt: '2017-05',
@@ -68,7 +68,7 @@ const experience: IExperience.Payload = {
         '- 디비 리모델링 후 마이그레이션 (기존 성능 문제)',
         '- 고객 포스기에서 작동하는 구조 -> 고객 요청후 서버에서 작동하는 구조 (고객 이탈률 대폭 감소)',
         '- 포스기가 아닌 모바일에서 메세지 전송 요청 기능 개발',
-        '기존 국내 호스팅 업체 -> AWS 마이그레이션'
+        '기존 국내 호스팅 업체 -> AWS 마이그레이션',
       ],
       skillKeywords: ['Python', 'Flask', 'C#', 'MySQL', 'AWS'],
     },
