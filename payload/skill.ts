@@ -61,6 +61,10 @@ const frontend: ISkill.Skill = {
       title: 'iOS(Swift)',
       // level: 2,
     },
+    {
+      title: 'Vue.js',
+      // level: 2,
+    },
   ],
 };
 
